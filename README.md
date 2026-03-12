@@ -111,10 +111,11 @@
 
 ```bibtex
 @misc{paper_deep_search,
-  title        = {Paper Deep Search: LLM-based citation network expansion tool for literature search},
-  author       = {Tengjie Zheng},
-  year         = {2026},
-  howpublished = {\url{https://github.com/your-username/your-repo-name}}
+  title = {Paper Deep Search: LLM-based citation network expansion tool for literature search},
+  author = {Tengjie Zheng},
+  year = {2026},
+  howpublished = {\url{https://github.com/TengjieZheng/Paper-Deep-Search}}
 }
 ```
+
 
