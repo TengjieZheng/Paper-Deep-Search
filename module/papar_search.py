@@ -58,7 +58,7 @@ def fetch_paper_network(paper_id, scan_func, filter_func, api_key=None, flag_pre
     results = []
     connection_types = ["references", "citations"]
 
-    time.sleep(2)
+    time.sleep(5)
     for conn in connection_types:
         endpoint = f"{base_url}/paper/{paper_id}/{conn}"
         params = {"fields": fields, "limit": 100}
@@ -409,3 +409,4 @@ def paper_deep_search(api_key, paper_seed, topic='', require='', round_deep_sear
         save_csv(missing_papers, "./不包含在zotero中的新论文.csv")
 
     return final_list
+
